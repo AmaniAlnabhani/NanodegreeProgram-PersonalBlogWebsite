@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cracking the Enigma Code Toda</title>
+    <link rel="stylesheet" href="css/style1.css">
+   
+   
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="header">
+                
+                <h1 class="blogTitle">Tech Blog</h1>
+                <div class="header-right">
+                  <a href="index.html">Home</a>
+                  <a href="#contact">Contact Us</a>
+                  <a href="#about">About Us</a>
+                </div>
+              </div>
+           
+        </nav>
+        <main>
+          
+            <div class="flex-container ">
+                <div class="post-title"><h1 >Cracking the Enigma Code Today</h1></div>
+                
+            
+                    <p class="blogtxt">
+                        The Enigma Machine is a true icon in the world of cryptography, captivating generations of mathematicians and computer scientists. Developed by the Germans during World War II, even the experts considered this machine impregnable until the ingenious efforts of Alan Turing and his team at Bletchley Park. Turing’s breakthroughs not only helped to save countless lives but also revolutionized the field of computing, paving the way for modern computers as we know them today.
+        
+                        With the power of modern technology at our fingertips, it’s tempting to think that breaking Enigma would be a trivial task. However, as we’ll explore in this blog, this is far from the truth. Despite the advances in computing power, the Enigma Machine remains a formidable challenge. So, join me on a journey through the past and present as we attempt to break Enigma.
+                        
+                        This is part I of a two-part post. In this post, we will understand the problem and build an intuition for a solution and in the next one, we will actually code-up some solutions.
+        
+                    </p>
+                    <img class="blog-img"src="images/Cracking.PNG" />
+                    <figcaption> The Enigma Machine used for cryptography</figcaption>
+                    <p class="blogtxt">Understanding the Machine
+                        Before we go further, let’s peel the layers of this machine. The interface is simple. You look up today’s configuration from a sheet and set up your machine. Once done, if you want to encrypt a message, you type the letters one by one and note the corresponding letters that light up, constituting an encrypted message. You then transmit this message by whatever channel. When you receive one of these messages, you prepare the machine again by looking up the configuration from your sheet and then start typing the encrypted message noting the characters that light up to get the original plaintext back.
+                        
+                        Underneath this simple interface is a clever electro-mechanical circuit with three main components — a switchboard with ten symmetric key substitution switches (e.g. an L with a K and K with an L), three rotors to be chosen from 5–8 possible rotors and finally, a reflector. Each rotor has a “seed” configuration that determines the starting position. Once you hit a letter, the rotors will rotate, and the signal will go through 1) the switchboard, which may change the letter with another; 2) the three rotors, each of which will change the letter; 3) the reflector, which will predictably change the letter and finally 4) the switchboard again which may once more change the output letter with another.
+                        
+                        </p>
+                    
+                 
+                
+            </div>
+
+        </main>
+        <div id="sidebar">
+            <div class="sid-content">
+                <img src="images/img_avatar.png" alt="Avatar" class="sid-img">
+            
+                <p class="name"><b>Mihir Sathe </b><br>
+                software engineering
+                </p>
+                <p class="bio"><q>I love software, coding and building large systems. 
+                    I am currently a software engineer at Snowflake. All opinions are my own.</q>
+                </p>
+            </div>
+            
+          
+        </div>
+        
+        
+        
+        <footer>
+            
+                
+            <div class="footer-bottom"></div>
+                   <div class="footer-content">
+                    
+                       <ul class="socials">
+                           <li><a href="https://www.facebook.com/"><img src="images/facebook.png" class="icon" /></a></li>
+                           <li><a href="https://www.linkedin.com/"><img src="images/linkend.png" class="icon"/></a></li>
+                           <li><a href="https://twitter.com/"><img src="images/twitter.png" class="icon"/></a></li>
+                         
+                       </ul>
+                   </div>
+           
+                <p class="copy-right">all copyrights reserved @2023</p>
+           </div>
+           
+            
+          
+       </footer>
+      </div>
+    
+</body>
+</html>
+
+

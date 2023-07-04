@@ -1,0 +1,40 @@
+
+footer {
+  
+    grid-area: footer;
+ 
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #icon{
+    width: 20px; height: 20px;
+  }
+
+  
+  a {
+    text-align: center;
+    display: block;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-bottom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.icon{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
